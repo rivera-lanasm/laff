@@ -1,0 +1,6 @@
+
+apt-get update
+apt install git-all
+
+
+nohup jupyter notebook --ip 0.0.0.0 --allow-root --no-browser > test.log &
